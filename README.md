@@ -66,8 +66,7 @@ ggplot(Turbine_day, aes(x=ambient_temperature, y=day_active_power)) + geom_point
 ggplot(Turbine_day, aes(x=wind_direction, y=day_active_power)) + geom_point() 
 ggplot(Turbine_day, aes(x=wind_speed, y=day_active_power)) + geom_point() 
 ```
-<img width="613" alt="Picture6" src="https://github.com/dingy21/windpower/assets/134649288/c6ec1203-1a92-4d53-8955-145aa3e0e235">
-<img width="613" alt="Picture7" src="https://github.com/dingy21/windpower/assets/134649288/ef8b85b2-96ae-49d3-bff9-b8c7effa4650">
+<img width="613" alt="Picture6" src="https://github.com/dingy21/windpower/assets/134649288/c6ec1203-1a92-4d53-8955-145aa3e0e235"><img width="613" alt="Picture7" src="https://github.com/dingy21/windpower/assets/134649288/ef8b85b2-96ae-49d3-bff9-b8c7effa4650">
 <img width="636" alt="Picture8" src="https://github.com/dingy21/windpower/assets/134649288/7736cf79-bbd0-42fa-9569-99727dde0ed6">
 
 ## Create Time Series Object and Plot
