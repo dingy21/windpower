@@ -191,3 +191,4 @@ xreg1 <- new[,-c(2)]
 forecast(fit_AR202, xreg=xreg1, h=5)
 autoplot(forecast(fit_AR202, xreg=xreg1, h=5))
 ```
+![Picture9](https://github.com/dingy21/windpower/assets/134649288/88566ac9-a4c1-4dd0-80c2-06e61a87fe3b)
