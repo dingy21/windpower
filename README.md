@@ -79,6 +79,7 @@ ggPacf(Turbine_ts,lag.max=200)
 <img width="453" alt="Picture1" src="https://github.com/dingy21/windpower/assets/134649288/8a129b85-a319-4ac9-a752-a6e26fb2d6b7">
 <img width="468" alt="Picture2" src="https://github.com/dingy21/windpower/assets/134649288/1e097afe-0963-42ef-93e3-3b8d397213ef">
 <img width="490" alt="Picture3" src="https://github.com/dingy21/windpower/assets/134649288/2c3fb450-94db-45aa-945a-b503e2d520c0">
+
 ## Test for White Noise
 ##### Ho: white noise
 ##### Ha: not white noise
