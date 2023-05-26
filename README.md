@@ -87,6 +87,7 @@ ggPacf(Turbine_ts,lag.max=200)
 Box.test(Turbine_ts, lag=8, fitdf=0, type="Lj")
 ```
 <img width="397" alt="Picture4" src="https://github.com/dingy21/windpower/assets/134649288/0483276f-96d0-4be8-a1a2-11a191b0ede5">
+
 ## ADF Test for Stationarity
 ### Use Single Mean Version of the Test
 ##### Ho: non-stationary and need 1st difference
@@ -96,6 +97,7 @@ test1_df <- ur.df(Turbine_ts, type = "drift")
 summary(test1_df)
 ```
 <img width="380" alt="Picture5" src="https://github.com/dingy21/windpower/assets/134649288/0cd4ca81-cfc6-47a8-bf70-d67e4fdf4c29">
+
 ## Model 1
 ### Which explanatory variables are important?
 ```
