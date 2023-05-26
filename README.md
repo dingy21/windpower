@@ -181,6 +181,8 @@ fit_AR202
 checkresiduals(fit_AR202)
 plot(residuals(fit_AR202))
 ```
+![Picture10](https://github.com/dingy21/windpower/assets/134649288/607981f8-a37e-4033-b8ac-5437fc8e7a91)
+
 ## Make Prediction
 ```
 # -- create a matrix of covariates for the next 5 time periods
