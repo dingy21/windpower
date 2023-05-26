@@ -79,12 +79,14 @@ ggPacf(Turbine_ts,lag.max=200)
 <img width="453" alt="Picture1" src="https://github.com/dingy21/windpower/assets/134649288/8a129b85-a319-4ac9-a752-a6e26fb2d6b7">
 <img width="468" alt="Picture2" src="https://github.com/dingy21/windpower/assets/134649288/1e097afe-0963-42ef-93e3-3b8d397213ef">
 <img width="490" alt="Picture3" src="https://github.com/dingy21/windpower/assets/134649288/2c3fb450-94db-45aa-945a-b503e2d520c0">
+
 ## Test for White Noise
 ##### Ho: white noise
 ##### Ha: not white noise
 ```
 Box.test(Turbine_ts, lag=8, fitdf=0, type="Lj")
 ```
+<img width="397" alt="Picture4" src="https://github.com/dingy21/windpower/assets/134649288/0483276f-96d0-4be8-a1a2-11a191b0ede5">
 ## ADF Test for Stationarity
 ### Use Single Mean Version of the Test
 ##### Ho: non-stationary and need 1st difference
@@ -93,6 +95,7 @@ Box.test(Turbine_ts, lag=8, fitdf=0, type="Lj")
 test1_df <- ur.df(Turbine_ts, type = "drift")
 summary(test1_df)
 ```
+<img width="380" alt="Picture5" src="https://github.com/dingy21/windpower/assets/134649288/0cd4ca81-cfc6-47a8-bf70-d67e4fdf4c29">
 ## Model 1
 ### Which explanatory variables are important?
 ```
