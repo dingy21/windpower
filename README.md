@@ -77,8 +77,8 @@ ggAcf(Turbine_ts,lag.max=200)
 ggPacf(Turbine_ts,lag.max=200)
 ```
 ## Test for White Noise
-*Ho: white noise*
-*Ha: not white noise*
+#### Ho: white noise
+#### Ha: not white noise
 ```
 Box.test(Turbine_ts, lag=8, fitdf=0, type="Lj")
 ```
