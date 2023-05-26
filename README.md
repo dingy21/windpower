@@ -77,15 +77,15 @@ ggAcf(Turbine_ts,lag.max=200)
 ggPacf(Turbine_ts,lag.max=200)
 ```
 ## Test for White Noise
-#### Ho: white noise
-#### Ha: not white noise
+##### Ho: white noise
+##### Ha: not white noise
 ```
 Box.test(Turbine_ts, lag=8, fitdf=0, type="Lj")
 ```
 ## ADF Test for Stationarity
 ### Use Single Mean Version of the Test
-Ho: non-stationary and need 1st difference
-Ha: stationary
+##### Ho: non-stationary and need 1st difference
+##### Ha: stationary
 ```
 test1_df <- ur.df(Turbine_ts, type = "drift")
 summary(test1_df)
